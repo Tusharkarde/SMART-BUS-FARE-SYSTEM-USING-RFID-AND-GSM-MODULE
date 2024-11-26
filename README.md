@@ -1,0 +1,6 @@
+# RFID-BUS-TICEKITING-SYSTEM
+The code implementation is for an RFID-Based Bus Billing System using Arduino. This system leverages RFID tags to manage entry and exit billing on a bus. It includes card detection for user entries, updates balances, and calculates billing based on the distance traveled. Additionally, it incorporates GSM functionality for SMS notifications and uses servos to simulate the opening and closing of a gate based on card entries.
+
+RFID-Based Bus Billing System Overview This project implements an RFID-based billing system for buses using Arduino. It tracks users' entry and exit using RFID tags, calculates the travel distance, and updates the user's balance accordingly. The system utilizes:
+
+RFID for detecting users. Servo Motors to simulate gate operations. GSM Module for sending SMS notifications. LCD Display for user interaction and feedback. Project Components Libraries Used: LiquidCrystal_I2C.h and Wire.h for handling the I2C LCD display. SoftwareSerial.h for serial communication with the GSM module. Servo.h for controlling servo motors. Hardware Components: Arduino (with multiple pins configured for input/output). RFID Reader (to detect tags). GSM Module (for SMS communication). LCD Display (I2C for displaying data). Servo Motors (for gate simulation).
